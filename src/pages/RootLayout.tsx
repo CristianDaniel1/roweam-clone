@@ -8,7 +8,6 @@ export default function RootLayout() {
   return (
     <>
       <ScrollToTop />
-
       <Header />
       <main className="relative overflow-x-clip">
         <CartOpen />

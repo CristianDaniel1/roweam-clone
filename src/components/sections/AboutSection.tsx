@@ -3,7 +3,7 @@ import aboutImg from '../../assets/img/about-2.jpg';
 export const AboutSection = () => {
   return (
     <section
-      className="max-container px-10 2xl:px-0 flex flex-wrap lg:flex-nowrap justify-center gap-6 items-center pb-10 font-sans"
+      className="max-container px-6 sm:px-10 2xl:px-0 flex flex-wrap lg:flex-nowrap justify-center gap-6 items-center pb-10 font-sans"
       id="about"
     >
       <div className="lg:w-3/5 appear-item relative md:w-[90%] w-full order-2 lg:order-1">

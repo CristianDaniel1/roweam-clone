@@ -5,7 +5,7 @@ import { MakeHistorySection } from '../components/sections/MakeHistorySection.ts
 export default function Collections() {
   return (
     <>
-      <section className="max-container px-10 2xl:px-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 gap-y-14 lg:gap-y-6 pt-32 pb-20">
+      <section className="max-container px-6 sm:px-10 2xl:px-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 gap-y-14 lg:gap-y-6 pt-32 pb-20">
         {collections.map(collection => {
           return (
             <div className="pb-20" key={collection.title}>

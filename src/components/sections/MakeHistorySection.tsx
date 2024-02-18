@@ -3,7 +3,7 @@ import { AnchorLink } from '../UI/AnchorLink';
 
 export const MakeHistorySection = () => {
   return (
-    <section className="max-container px-10 2xl:px-0 pb-20 lg:py-20">
+    <section className="max-container px-6 sm:px-10 2xl:px-0 pb-20 lg:py-20">
       <div className="bg-primary-light bg-opacity-60 flex flex-wrap justify-center p-4 sm:p-10">
         <div className="lg:w-1/2 relative appear-item">
           <img

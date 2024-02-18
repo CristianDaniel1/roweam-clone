@@ -41,7 +41,7 @@ export const CartItem = ({
       transition={{ duration: 0.2, delay: 0.2 }}
     >
       <Link to={`/shop/${id}`} className="w-2/6">
-        <img src={image} alt={alt} />
+        <img src={image} alt={alt} loading="lazy" />
       </Link>
       <div className="w-2/6 sm:w-3/6 flex flex-col justify-between">
         <div>

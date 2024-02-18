@@ -1,7 +1,12 @@
 import { CartIcon } from '../icons/CartIcon.tsx';
 import { useCartStore } from '../store/CartStore.tsx';
 
-export const CartButton = () => {
+interface CartButtonProps {
+  visible: boolean;
+  onCloseBar: (visible: boolean) => void;
+}
+
+export const CartButton = ({ visible, onCloseBar }: CartButtonProps) => {
   const toggleShowCart = useCartStore(state => state.toggleShowCart);
   const cartItems = useCartStore(state => state.cartItems);
 
@@ -11,11 +16,15 @@ export const CartButton = () => {
 
   function handleToggleCart() {
     toggleShowCart();
+
+    if (visible) {
+      onCloseBar(false);
+    }
   }
 
   return (
     <button
-      className="uppercase tracking-wider flex items-center"
+      className="uppercase tracking-wider flex items-center font-medium text-secundary opacity-80 text-sm"
       onClick={handleToggleCart}
     >
       <CartIcon className="inline-block mr-2" />

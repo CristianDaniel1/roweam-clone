@@ -3,7 +3,7 @@ import contactImg from '../../assets/img/contact-image.jpg';
 export const ContactSection = () => {
   return (
     <section
-      className="max-container px-10 2xl:px-0 flex justify-center flex-wrap lg:flex-nowrap py-10 mt-20 gap-10 font-sans"
+      className="max-container px-6 sm:px-10 2xl:px-0 flex justify-center flex-wrap lg:flex-nowrap py-10 mt-20 gap-10 font-sans"
       id="contact"
     >
       <div className="lg:w-3/5 w-full md:w-[90%]">

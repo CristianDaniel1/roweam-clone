@@ -14,7 +14,7 @@ export default function Login() {
         <img
           src={loginImg}
           alt="sala com uma mesa redonda e três cadeiras"
-          className="object-cover h-full"
+          className="object-cover w-full h-full"
         />
       </div>
       <form

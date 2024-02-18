@@ -14,7 +14,7 @@ export const VintageCategoryProducts = ({
   }
 
   return (
-    <ul className="font-sans flex flex-wrap gap-4 sm:gap-8 pt-4">
+    <ul className="font-sans flex flex-wrap gap-x-8 gap-y-4 sm:gap-8 pt-4 px-6 sm:px-0">
       {vintageCategory.map(categ => (
         <li key={categ.id} className="relative text-sm">
           <button

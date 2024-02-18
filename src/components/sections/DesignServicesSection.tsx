@@ -3,7 +3,7 @@ import designServicesImg from '../../assets/img/design-services.jpg';
 export const DesignServicesSection = () => {
   return (
     <section
-      className="max-container px-10 2xl:px-0 font-sans pb-14"
+      className="max-container px-6 sm:px-10 2xl:px-0 font-sans pb-14"
       id="design-services"
     >
       <div className="flex flex-wrap justify-center md:flex-nowrap gap-10 py-10">

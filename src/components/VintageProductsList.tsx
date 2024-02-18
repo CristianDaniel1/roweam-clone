@@ -16,7 +16,7 @@ export const VintageProductsList = ({
   }
 
   return (
-    <ul className="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+    <ul className="grid grid-cols-2 lg:grid-cols-4 gap-x-3 sm:gap-x-6 gap-y-6 mt-8 px-3 sm:px-0">
       {categoryList.map((product, index) => {
         if (index >= showProductsLimit) return;
 

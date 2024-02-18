@@ -7,11 +7,13 @@ export default function Shop() {
   const [category, setCategory] = useState('Shop All');
 
   return (
-    <section className="max-container px-6 sm:px-10 2xl:px-0 pb-10 pt-36 min-h-screen">
-      <div className="flex items-center flex-wrap gap-10 xl:gap-20 2xl:gap-40 pb-10">
+    <section className="max-container sm:px-10 2xl:px-0 pb-10 pt-36 min-h-screen">
+      <div className="flex items-center flex-wrap gap-10 xl:gap-20 2xl:gap-40 pb-10 px-6 sm:px-0">
         <div className="max-w-3xl xl:max-w-sm 2xl:max-w-xl">
-          <h2 className="text-6xl py-6 mb-4 animate-opacity">{category}</h2>
-          <p className="font-sans pr-6 2xl:pr-20">
+          <h2 className="text-5xl md:text-6xl py-6 mb-4 animate-opacity">
+            {category}
+          </h2>
+          <p className="font-sans md:pr-6 2xl:pr-20">
             A custom designed and curated selection of New and True Vintage
             products aimed to celebrate the beauty of patina and moments of
             nostalgia. Each piece represents a sense of heritage and history,

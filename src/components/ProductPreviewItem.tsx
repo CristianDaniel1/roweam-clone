@@ -19,13 +19,16 @@ export const ProductPreviewItem = (props: ProductsPreviewItemProps) => {
           <img
             src={props.image}
             alt={props.alt}
+            loading="lazy"
+            width={365}
+            height={485}
             className="hover:scale-105 duration-150 object-contain hover:animate-flash w-full"
           />
         </div>
         <div className="flex justify-between mt-4 pt-2  text-secundary">
-          <h3 className="px-1 text-xl">{props.title}</h3>
+          <h3 className="px-1 text-[1.1rem] sm:text-xl">{props.title}</h3>
 
-          <div className="font-sans font-medium text-base pt-[0.2rem] opacity-80">
+          <div className="font-sans font-medium text-sm  sm:text-base pt-[0.2rem] opacity-80">
             {currencyFormatter.format(props.price)}
           </div>
         </div>

@@ -27,13 +27,7 @@ export const Cart = () => {
         onClick={handleHideCart}
       ></div>
       <motion.div
-        className={
-          `w-full md:w-[31rem] fixed min-h-screen bg-primary-light z-30 translate-x-full py-10 px-2 `
-          // ${
-          //   isOpen ? 'animate-slideLeft' : ''
-          // }
-          // `
-        }
+        className="w-full md:w-[31rem] fixed min-h-full bg-primary-light z-30 translate-x-full py-10 px-2"
         variants={{
           hidden: { x: '100%' },
           visible: { x: '0' },
@@ -44,7 +38,7 @@ export const Cart = () => {
         exit="hidden"
       >
         <div
-          className={`h-[85vh] flex flex-col overflow-y-auto px-4 sm:px-8 ${
+          className={`h-[80vh] flex flex-col overflow-y-auto px-4 sm:px-8 ${
             cartItems.length <= 0 ? 'justify-center' : 'pt-10'
           }`}
         >
