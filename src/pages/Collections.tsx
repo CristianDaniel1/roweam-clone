@@ -17,6 +17,7 @@ export default function Collections() {
                     className="object-cover h-full  hover:scale-105 duration-500"
                     width={492}
                     height={460}
+                    loading="lazy"
                   />
                 </Link>
               </div>

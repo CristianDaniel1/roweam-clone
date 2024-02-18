@@ -45,7 +45,7 @@ export const Navigation = ({ visible, onCloseBar }: NavigationProps) => {
               Collections
             </NavLink>
           </li>
-          <li className="border-light py-6 lg:border-0">
+          <li className="border-light lg:border-0">
             <NavLink
               to="/about"
               className="relative lg:border-anime py-6 block lg:py-0 lg:inline"
