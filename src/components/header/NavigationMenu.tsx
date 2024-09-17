@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 import { Navigation } from './Navigation.tsx';
-import { CartButton } from './cart/CartButton.tsx';
-import { HamburgerIcon } from './icons/HamburgerIcon.tsx';
-import { CloseIcon } from './icons/CloseIcon.tsx';
+import { CartButton } from '../cart/CartButton.tsx';
+import { HamburgerIcon } from '../icons/HamburgerIcon.tsx';
+import { CloseIcon } from '../icons/CloseIcon.tsx';
 
 export const NavigationMenu = () => {
   const [visibility, setVisibility] = useState(false);

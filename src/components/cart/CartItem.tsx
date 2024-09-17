@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import { type ProductType } from '../../types.ts';
-import { currencyFormatter } from '../../util/formatting.ts';
+import { currencyFormatter } from '../../utils/formatting.ts';
 import { ItemQuantity } from './ItemQuantity.tsx';
-import { useCartStore } from '../store/CartStore.tsx';
+import { useCartStore } from '../../store/CartStore.tsx';
 import { motion } from 'framer-motion';
 
 interface CartItemProps extends ProductType {

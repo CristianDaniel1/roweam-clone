@@ -1,7 +1,7 @@
-import { currencyFormatter } from '../../util/formatting.ts';
+import { currencyFormatter } from '../../utils/formatting.ts';
 import { CartItem } from './CartItem.tsx';
 import { Button } from '../UI/Button.tsx';
-import { useCartStore } from '../store/CartStore.tsx';
+import { useCartStore } from '../../store/CartStore.tsx';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 

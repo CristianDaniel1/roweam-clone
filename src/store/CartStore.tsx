@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { type ProductType } from '../../types.ts';
+import { type ProductType } from '../types.ts';
 
 interface CartItems extends ProductType {
   quantity: number;

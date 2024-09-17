@@ -58,22 +58,6 @@ export const categories = [
   },
 ];
 
-export const shopLinks = [
-  'Forniture',
-  'Decor',
-  'Dining & Entertaining',
-  'Soft Goods',
-  'Lighting',
-  'Art',
-];
-
-export const CompanyLinks = [
-  'Our Story',
-  'Interior Design',
-  'Stay With Us',
-  'A Bit Moore Blog',
-];
-
 export const AboutLinks = [
   {
     section: 'About',
@@ -165,3 +149,37 @@ export const collections = [
     description: 'Sweet lines and stately presence.',
   },
 ];
+
+const shopLinks = [
+  'Forniture',
+  'Decor',
+  'Dining & Entertaining',
+  'Soft Goods',
+  'Lighting',
+  'Art',
+];
+
+const companyLinks = [
+  'Our Story',
+  'Interior Design',
+  'Stay With Us',
+  'A Bit Moore Blog',
+];
+
+const customerLinks = [
+  'Contact Us',
+  'Legal',
+  'FAQ',
+  'Trade',
+  'Account',
+  'Fabric Swatches',
+];
+
+const connectLinks = ['hello@roweam.com', 'Facebook', 'Instagram', 'Pinterest'];
+
+export const footerLinks = {
+  shopLinks,
+  companyLinks,
+  customerLinks,
+  connectLinks,
+};

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { type ProductType } from '../types.ts';
-import { currencyFormatter } from '../util/formatting.ts';
+import { currencyFormatter } from '../utils/formatting.ts';
 
 interface ProductsPreviewItemProps extends ProductType {
   toOrder: boolean;

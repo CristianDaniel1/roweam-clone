@@ -1,5 +1,5 @@
 import { CartIcon } from '../icons/CartIcon.tsx';
-import { useCartStore } from '../store/CartStore.tsx';
+import { useCartStore } from '../../store/CartStore.tsx';
 
 interface CartButtonProps {
   visible: boolean;

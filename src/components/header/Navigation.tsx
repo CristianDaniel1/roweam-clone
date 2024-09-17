@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { UserIcon } from './icons/UserIcon.tsx';
+import { UserIcon } from '../icons/UserIcon.tsx';
 
 interface NavigationProps {
   visible: boolean;

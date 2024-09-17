@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import { products } from '../constants/products.ts';
 import { ProductDetailsButton } from '../components/productDetails/ProductDetailsButton.tsx';
 import { RoweamMethod } from '../components/productDetails/RoweamMethod.tsx';
-import { currencyFormatter } from '../util/formatting.ts';
+import { currencyFormatter } from '../utils/formatting.ts';
 import { AddToCartButton } from '../components/productDetails/AddToCartButton.tsx';
 
 export default function ProductDetails() {

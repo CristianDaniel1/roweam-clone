@@ -1,6 +1,6 @@
 import { type ProductType } from '../../types.ts';
 import { Button } from '../UI/Button.tsx';
-import { useCartStore } from '../store/CartStore.tsx';
+import { useCartStore } from '../../store/CartStore.tsx';
 
 interface AddToCartProps extends ProductType {
   id: string;
