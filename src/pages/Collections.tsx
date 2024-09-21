@@ -15,8 +15,8 @@ export default function Collections() {
                     src={collection.image}
                     alt={collection.alt}
                     className="object-cover h-full  hover:scale-105 duration-500"
-                    width={492}
-                    height={460}
+                    width={490}
+                    height={459}
                     loading="lazy"
                   />
                 </Link>
