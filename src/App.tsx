@@ -8,11 +8,13 @@ import Shop from './pages/Shop.tsx';
 import Login from './pages/Login.tsx';
 import ProductDetails from './pages/ProductDetails.tsx';
 import ShopRootLayout from './pages/ShopRootLayout.tsx';
+import { Error } from './pages/Error.tsx';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <RootLayout />,
+    errorElement: <Error />,
     children: [
       {
         index: true,
